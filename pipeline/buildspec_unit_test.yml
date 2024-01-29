@@ -5,6 +5,7 @@ phases:
       nodejs: latest
   build:
     commands:
+      # trigger the unit tests here
       - echo 'Running unit tests'
       - cd hello-world
       - npm install
